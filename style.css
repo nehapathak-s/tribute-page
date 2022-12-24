@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+/* backimg */
+
+
+/* Navigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+/* logo */
+#logo {
+    margin: 15px 22px;
+}
+
+/* Logo img */
+#logo img {
+    margin: 0px -12px;
+    height: 71px;
+    border-radius: 151px;
+    box-shadow: 2px 9px 27px #efebe9;
+}
+
+/* Navigation */
+#navbar ul {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#navbar ul li {
+
+    list-style-type: none;
+    height: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 1px 41px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(206, 11, 241);
+    color: black;
+}
+
+
+.home img
+{
+    height:100%;
+    width:100%;
+}
+
+#home::before {
+    content: "";
+    background: url("./back.jpg")  no-repeat center center/cover;
+    /* margin:0; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+
+
+/* Service */
+#services {
+    margin: 34px;
+    display: flex;
+    background-color: #000000;
+    border-radius: 33px;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 24px;
+    margin: 10px 55px 20px;
+    border-radius: 28px;
+    background: rgb(242, 242, 242);
+    height: 385px;
+}
+
+
+
+#services .box p {
+
+    font-family: 'Pacifico', cursive;
+    /* color: #f2f2f2; */
+
+}
+
+
+
+
+.h-primary {
+    /* color:green; */
+    font-size: 2rem;
+    padding: 12px;
+    font-family: 'Unbounded', cursive;
+    /* color: #efebe9; */
+
+
+}
+
+.h-secondary {
+    /* color:green; */
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+
+
+.center {
+    text-align: center;
+
+}
+
+.about
+{
+    /* border:2px solid red ; */
+    margin:30px;
+    border-top: 3px solid rgb(137, 26, 26);
+    border-bottom: 3px solid rgb(127, 29, 29);
+}
+
+.media img
+{
+    height: 51px;
+}
+footer {
+    padding: 1rem 0 3rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+footer li {
+    display: inline-block;
+}
